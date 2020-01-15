@@ -56,11 +56,13 @@ void Thread::run()
 		// マウスがメインウィンドウ内にあるなら文字認識は実行しない
 		if (window_x < po.x && po.x < window_x + window_w &&
 			window_y < po.y && po.y < window_y + window_h) {
+			Sleep(1);
 			continue;
 		}
 
 		// マウスが移動していなければ文字認識は実行しない
 		if (po.x == old_po.x && po.y == old_po.y) {
+			Sleep(1);
 			continue;
 		}
 		old_po.x = po.x;
@@ -74,6 +76,7 @@ void Thread::run()
 		// マウス付近の画像を文字認識
 		if (ocr.Recognize(po.x - roi_mouse_x, po.y - roi_mouse_y, roi_w, roi_h) == false)
 		{
+			Sleep(1);
 			continue;
 		}
 
@@ -81,6 +84,7 @@ void Thread::run()
 		ocr.GetResults(ocr_results);
 
 		if (ocr_results.size() < 1) {
+			Sleep(1);
 			continue;
 		}
 
