@@ -13,9 +13,6 @@
   <property name="windowTitle">
    <string>Mini Window</string>
   </property>
-  <property name="windowOpacity">
-   <double>0.800000000000000</double>
-  </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <property name="leftMargin">
     <number>0</number>

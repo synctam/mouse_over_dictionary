@@ -16,9 +16,6 @@
   <property name="windowTitle">
    <string>Mouse Over Dictionary</string>
   </property>
-  <property name="windowOpacity">
-   <double>0.800000000000000</double>
-  </property>
   <widget class="QWidget" name="centralWidget">
    <layout class="QVBoxLayout" name="verticalLayout" stretch="0,1">
     <property name="spacing">
