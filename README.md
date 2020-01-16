@@ -16,8 +16,8 @@
 ## 使い方
 
 ### インストール
-* 下記からダウンロードして解凍
-    * [MouseOverDictionary.ver.0.0.3.zip](https://github.com/kengo700/mouse_over_dictionary/releases/download/v0.0.3/MouseOverDictionary.ver.0.0.3.zip)
+* 下記からダウンロードして展開
+    * [MouseOverDictionary.ver.0.0.4.zip](https://github.com/kengo700/mouse_over_dictionary/releases/download/v0.0.4/MouseOverDictionary.ver.0.0.4.zip)
 
 ### 主な機能
 
@@ -40,12 +40,12 @@
 * [PDIC１行テキスト形式（Unicode、Shift-JIS）](http://pdic.la.coocan.jp/unicode/help/OneLineFormat.html)
    * PDICで変換可能
 
-## その他
-
 ### 動作環境
 
 * Windows 10 64bit
 * 高DPI非対応
+
+## その他
 
 ### ライセンス
 
