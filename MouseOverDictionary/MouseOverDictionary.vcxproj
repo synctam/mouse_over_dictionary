@@ -97,7 +97,7 @@
       <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <AdditionalLibraryDirectories>C:\tesseract\build\x64\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>"S:\O-Drive\Devs\Products\tesseract\vcpkg-2019.12\installed\x64-windows\lib\tesseract41.lib";"S:\O-Drive\Devs\Products\tesseract\vcpkg-2019.12\installed\x64-windows\lib\leptonica-1.78.0.lib";%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>tesseract41.lib;leptonica-1.78.0.lib;UGlobalHotkey.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ProjectReference />
   </ItemDefinitionGroup>
